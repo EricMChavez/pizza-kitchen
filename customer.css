@@ -1,0 +1,33 @@
+#customer1 {
+	background-image: url('person-dad.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 1400px;
+	width: 200px;
+	height: 250px;
+}
+#customer2 {
+	background-image: url('person-hipster.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 1400px;
+	width: 200px;
+	height: 250px;
+}
+#customer3 {
+	background-image: url('person-student.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 1400px;
+	width: 200px;
+	height: 250px;
+}
+.customer {
+	animation: customer 22000ms ease;
+}

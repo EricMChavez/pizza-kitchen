@@ -1,0 +1,103 @@
+#kitchen {
+	perspective: 50em;
+	perspective-origin: top;
+	width: 1400px;
+	height: 760px;
+	background-color: rgba(0, 24, 163, 0.3);
+	overflow: hidden;
+}
+#leftWall {
+	background-image: url('wall.jpg');
+	background-size: cover;
+	transform: rotateY(70deg);
+	position: absolute;
+	top: 0;
+	left: 41px;
+	height: 535px;
+	width: 500px;
+}
+#rightWall {
+	background-image: url('wall.jpg');
+	background-size: cover;
+	transform: rotateY(-70deg);
+	position: absolute;
+	top: 0;
+	left: 859px;
+	height: 535px;
+	width: 500px;
+}
+#door {
+	width: 120px;
+	background-color: white;
+	position: absolute;
+
+	right: -20;
+	bottom: 0;
+}
+#backWall {
+	background-image: url('clock.jpg');
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: -100px;
+	position: absolute;
+	width: 500px;
+	height: 413px;
+	left: 450px;
+}
+#floor {
+	background-image: url('floor.jpg');
+	transform: rotateX(105deg);
+	position: absolute;
+	width: 740px;
+	top: 105px;
+	height: 790px;
+	left: 330px;
+}
+.table {
+	background-image: url('table.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 570px;
+	width: 200px;
+	height: 200px;
+}
+.right {
+	left: 220px;
+}
+.left {
+	left: 980px;
+}
+.back {
+	width: 150px;
+	height: 150px;
+	top: 340px;
+	left: 800px;
+}
+#computer {
+	background-image: url('computer-left.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 280px;
+	left: 820px;
+	width: 100px;
+	height: 100px;
+}
+button {
+	position: absolute;
+	top: 0;
+	height: 50px;
+	width: 150px;
+	background-color: grey;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.open {
+	color: white;
+	background-color: blue;
+}
+.open:hover {
+	font-size: 20px;
+}

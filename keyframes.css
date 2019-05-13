@@ -1,0 +1,105 @@
+@keyframes inputOrder {
+	0% {
+		left: 920px;
+		top: 480px;
+		transform: scaleX(-1);
+	}
+	100% {
+		left: 820px;
+		top: 280px;
+		transform: scaleX(1);
+	}
+}
+@keyframes returnOrder {
+	0% {
+		left: 820px;
+		top: 280px;
+		transform: scaleX(1);
+	}
+	100% {
+		left: 920px;
+		top: 480px;
+		transform: scaleX(-1);
+	}
+}
+@keyframes openFreezer {
+	0% {
+		top: 530px;
+		left: 500px;
+		transform: scaleX(1);
+	}
+	100% {
+		top: 330px;
+		left: 550px;
+		transform: scaleX(-1);
+	}
+}
+
+@keyframes placePizza {
+	0% {
+		background-image: url('pizza-man-frozen.gif');
+		top: 330px;
+		left: 550px;
+		transform: scaleX(-1);
+	}
+	100% {
+		background-image: url('pizza-man-frozen.gif');
+		top: 330px;
+		left: 420px;
+		transform: scaleX(1);
+	}
+}
+@keyframes return {
+	0% {
+		top: 330px;
+		left: 420px;
+		transform: scaleX(1);
+	}
+	100% {
+		top: 530px;
+		left: 500px;
+		transform: scaleX(1);
+	}
+}
+@keyframes retrievePizza {
+	0% {
+		top: 480px;
+		left: 220px;
+	}
+	100% {
+		top: 330px;
+		left: 420px;
+	}
+}
+@keyframes deliverPizza {
+	0% {
+		background-image: url('pizza-man-frozen.gif');
+		top: 330px;
+		left: 420px;
+	}
+	100% {
+		background-image: url('pizza-man-frozen.gif');
+		top: 480px;
+		left: 220px;
+	}
+}
+@keyframes customer {
+	0% {
+		left: 1400px;
+	}
+	15% {
+		left: 1000px;
+	}
+	20% {
+		left: 1000px;
+	}
+	60% {
+		left: 100px;
+	}
+	75% {
+		left: 100px;
+	}
+	100% {
+		left: 1400px;
+	}
+}

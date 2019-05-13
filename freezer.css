@@ -1,0 +1,10 @@
+#freezer {
+	background-image: url('freezer-closed.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 180px;
+	left: 620px;
+	width: 200px;
+	height: 270px;
+}

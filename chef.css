@@ -1,0 +1,56 @@
+#chef-1 {
+	background-image: url('pizza-man.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+
+	width: 200px;
+	height: 200px;
+	transform: scaleX(-1);
+	top: 480px;
+	left: 920px;
+}
+
+#chef-2 {
+	background-image: url('pizza-man.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+
+	width: 200px;
+	height: 200px;
+	top: 530px;
+	left: 500px;
+}
+#chef-3 {
+	background-image: url('pizza-man.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+
+	width: 200px;
+	height: 200px;
+	top: 480px;
+	left: 220px;
+}
+.inputOrder {
+	animation: inputOrder 2000ms ease forwards;
+}
+.returnOrder {
+	animation: returnOrder 2000ms ease forwards;
+}
+.placePizza {
+	animation: placePizza 1500ms ease forwards;
+}
+.openFreezer {
+	animation: openFreezer 2000ms ease forwards;
+}
+.return {
+	animation: return 2000ms ease forwards;
+}
+.retrievePizza {
+	animation: retrievePizza 2000ms ease forwards;
+}
+.deliverPizza {
+	animation: deliverPizza 2000ms ease;
+}
